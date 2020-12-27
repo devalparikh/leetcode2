@@ -15,12 +15,15 @@ public class RotateImage {
         System.out.println("After: " + Arrays.deepToString(test1));
     }
 
+    // O(n) time, O(1) space
     private static void rotate(int[][] matrix) {
         int size = matrix.length-1;
         int layer_count = matrix.length/2;
 
+        // O(layer_count) time
         // Iterate through each matrix layer
         for(int i = 0; i < layer_count; i++) {
+            // O(size) time
             for(int j = i; j < size-i; j++) {
                 // Obtain corners
                 int one = matrix[i][j]; // top left
