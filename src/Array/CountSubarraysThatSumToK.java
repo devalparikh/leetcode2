@@ -77,7 +77,7 @@ public class CountSubarraysThatSumToK {
             sums[i] = sums[i - 1] + nums[i];
         }
 
-        // O(n+n)
+        // O(n^2)
         // Iterate through given numbers
         for (int i = 0; i < nums.length; i++) {
             // Iterate from current index to end of array
