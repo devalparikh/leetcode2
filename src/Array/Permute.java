@@ -1,3 +1,7 @@
+// Leetcode Link: https://leetcode.com/problems/permutations/
+// Difficulty: Medium
+// Topics: Arrays, Recursion, Backtracking
+
 package Array;
 
 import java.util.ArrayList;
