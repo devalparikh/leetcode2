@@ -11,7 +11,7 @@ public class ThreeSum {
 
     }
 
-    // O(n^2 * nlogn) time
+    // O(n^2 + nlogn) = O(n^2) time
     // Return array of triplets that can sum to 0
     private List<List<Integer>> threeSum(int[] nums) {
         // Sort O(nlogn) or O(n) using radix sort or counting sort
